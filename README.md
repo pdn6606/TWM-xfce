@@ -57,7 +57,7 @@ Replace mpv to whatever sound player that you use, or install mpv
 - Make sure to set the trigger to on login, then click OK  
 ![Login sound](https://github.com/pdn6606/TWM-xfce/assets/31226956/fad6b27b-0e62-4aad-9847-a32769a91016)
 
-## TWM-conky: Desktop widgets
+## TWM-Conky: Desktop widgets
 - Require conky to be installed.
 - You should use conky-manager2 to enable and change the position of the widget.
 - TWM-moc-player require mocp, and can only show song played through mocp.
@@ -75,12 +75,12 @@ Theme=TWM-plymouth
 - Depending on your distro, update your initramfs.
 
 
-## TWM-grub: Bootloader theme
+## TWM-GRUB: Bootloader theme
 * Warning: This can lead to an unbootable system if you don't know what you are doing.
 - Require GRUB to be used as your bootloader
 - Put into /boot/grub/themes
 - Use a text editor and open `/etc/default/grub`
-- Add or replace `GRUB_THEME=` to this line: `GRUB_THEME="/boot/grub/themes/TWM-grub/theme.txt"`
+- Add or replace `GRUB_THEME=` to this line: `GRUB_THEME="/boot/grub/themes/TWM-GRUB/theme.txt"`
 
 # Preview:
 ![The desktop, with all of the above done, in EndeavourOS XFCE](https://github.com/pdn6606/TWM-xfce/assets/31226956/e9421ee1-ce0a-4158-865d-b4c87642d738)
