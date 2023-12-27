@@ -26,7 +26,6 @@ conky.config = {
     alignment = 'top_right',
     gap_x = 40,
     gap_y = 25,
-    uppercase = true,
 };
 
 conky.text = [[
