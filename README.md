@@ -64,7 +64,7 @@ Theme=TWM-plymouth
 
 
 ## TWM-grub: Bootloader theme
-- Warning: This can lead to an unbootable system if you don't know what you are doing.
+* Warning: This can lead to an unbootable system if you don't know what you are doing.
 - Require GRUB to be used as your bootloader
 - Put into /boot/grub/themes
 - Use a text editor and open `/etc/default/grub`
