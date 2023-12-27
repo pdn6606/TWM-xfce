@@ -57,8 +57,11 @@ Replace mpv to whatever sound player that you use, or install mpv
 - Put into /usr/share/plymouth/themes/
 - Run `sudo plymouth-set-default-theme -R TWM-plymouth` in console
 - If plymouth-set-default-theme is not found, use a text editor and open /etc/plymouth/plymouthd.conf to include this line:  
-``[Daemon]  
-Theme=TWM-plymouth``
+```
+[Daemon]
+Theme=TWM-plymouth
+```
+
 
 ## TWM-grub: Bootloader theme
 - Warning: This can lead to an unbootable system if you don't know what you are doing.
