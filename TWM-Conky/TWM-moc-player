@@ -31,8 +31,9 @@ conky.config = {
 };
 
 conky.text = [[
-${alignc}${exec [ -e "/tmp/$(mocp -Q %song).jpg" ] && ln -sfn "/tmp/$(mocp -Q %song).jpg" "/tmp/alb.jpg" || ffmpeg -y -i "$(mocp -Q %file)" "/tmp/$(mocp -Q %song).jpg" ; ln -sfn "/tmp/$(mocp -Q %song).jpg" "/tmp/alb.jpg"}
-${alignc}${moc_title}
+${exec [ -e "/tmp/$(mocp -Q %song).jpg" ] && ln -sfn "/tmp/$(mocp -Q %song).jpg" "/tmp/alb.jpg" || ffmpeg -y -i "$(mocp -Q %file)" "/tmp/$(mocp -Q %song).jpg" ; ln -sfn "/tmp/$(mocp -Q %song).jpg" "/tmp/alb.jpg"}
+${alignc}${save_coordinates 1}${voffset -9}${image /tmp/alb.jpg -i 1 -s 45x45}${lua_bar 46,46}
+${alignc}${moc_song}
 ${execbar echo $(($(mocp -Q %cs'*100/'%ts)))}
-${moc_curtime} ${moc_rate} [ ${moc_totaltime} ] ${moc_bitrate} ${moc_timeleft}
+${moc_curtime}  ${moc_rate}  [${moc_totaltime}]  ${moc_bitrate}  ${moc_timeleft}
 ]];
