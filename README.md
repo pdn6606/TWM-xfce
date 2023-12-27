@@ -30,7 +30,8 @@ If you are not using EndeavourOS, the panel's border may overlap with some plugi
 
 ## TWM-theme: xfwm4 theme
 - Put into /usr/share/themes
-- Change the theme by going to Settings - Window Manager, and select TWM
+- Change the theme by going to Settings Manager - Appearance - Style, and select TWM-theme
+- Change the Window Manager theme by going to Settings Manager - Window Manager, and select TWM
 - Change title font to Terminus Bold, recommended size 15
 - Change title alignment to Left
 
