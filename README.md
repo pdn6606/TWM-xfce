@@ -42,8 +42,9 @@ If you are not using EndeavourOS, the panel's border may overlap with some plugi
 - Change to whatever wallpaper you like
 
 ## startup.ogg: Bootup sound
+- Put into ~/Music (or whatever folder you want)
 - Go to Settings Manager - Session and Startup - Application Autostart
-- Click add, and set the command to `mpv /home/pdn/Music/startup.ogg`  
+- Click add, and set the command to `mpv ~/Music/startup.ogg`  
 Replace mpv to whatever sound player that you use, or install mpv
 - Make sure to set the trigger to on login, then click OK
 
