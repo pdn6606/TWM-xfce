@@ -35,9 +35,8 @@ conky.config = {
     use_spacer = 'none',
     maximum_width = 1024,
     minimum_height = 0,
-    uppercase = true,
 };
 
 conky.text = [[
-${execpi 90 curl "https://wttr.in/Hanoi?0ATQ"}
+${execpi 90 curl "https://wttr.in/?0ATQ"}
 ]];
