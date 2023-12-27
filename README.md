@@ -20,8 +20,8 @@ xfwm4 theme is made by apprehensions (on GitHub).
 - Make sure to backup the original gtk.css inside the folder, if it exists, before replacing it
 - Put the file to the folder
 - Log out/Restart
-+ If you are not using EndeavourOS, the panel's border may overlap with some plugins.
 - Reconfigure plugins in your panel, for example the clock might have incorrect fonts and size
+If you are not using EndeavourOS, the panel's border may overlap with some plugins.
 
 ## TWM-icons: Icons
 - Put into /usr/share/icons
@@ -44,7 +44,7 @@ xfwm4 theme is made by apprehensions (on GitHub).
 ## startup.ogg: Bootup sound
 - Go to Settings Manager - Session and Startup - Application Autostart
 - Click add, and set the command to `mpv /home/pdn/Music/startup.ogg`
-+ Replace mpv to whatever sound player that you use, or install mpv
+Replace mpv to whatever sound player that you use, or install mpv
 - Make sure to set the trigger to on login, then click OK
 
 ## TWM-conky: Desktop widgets
