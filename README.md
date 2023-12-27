@@ -54,7 +54,7 @@ If you are not using EndeavourOS, the panel's border may overlap with some plugi
 - Go to Settings Manager - Session and Startup - Application Autostart
 - Click add, and set the command to `mpv ~/Music/startup.ogg`  
 Replace mpv to whatever sound player that you use, or install mpv
-- Make sure to set the trigger to on login, then click OK
+- Make sure to set the trigger to on login, then click OK  
 ![Login sound](https://github.com/pdn6606/TWM-xfce/assets/31226956/fad6b27b-0e62-4aad-9847-a32769a91016)
 
 ## TWM-conky: Desktop widgets
