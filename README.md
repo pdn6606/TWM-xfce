@@ -20,7 +20,7 @@ xfwm4 theme is made by apprehensions (on GitHub).
 - Make sure to backup the original gtk.css inside the folder, if it exists, before replacing it
 - Put the file to the folder
 - Log out/Restart
-- Reconfigure plugins in your panel, for example the clock might have incorrect fonts and size
+- Reconfigure plugins in your panel, for example the clock might have incorrect fonts and size  
 If you are not using EndeavourOS, the panel's border may overlap with some plugins.
 
 ## TWM-icons: Icons
@@ -31,7 +31,7 @@ If you are not using EndeavourOS, the panel's border may overlap with some plugi
 ## TWM-theme: xfwm4 theme
 - Put into /usr/share/themes
 - Change the theme by going to Settings - Window Manager, and select TWM
-- Change title font to Terminus Bold, I recommended size 15
+- Change title font to Terminus Bold, recommended size 15
 - Change title alignment to Left
 
 # Optional
@@ -43,7 +43,7 @@ If you are not using EndeavourOS, the panel's border may overlap with some plugi
 
 ## startup.ogg: Bootup sound
 - Go to Settings Manager - Session and Startup - Application Autostart
-- Click add, and set the command to `mpv /home/pdn/Music/startup.ogg`
+- Click add, and set the command to `mpv /home/pdn/Music/startup.ogg`  
 Replace mpv to whatever sound player that you use, or install mpv
 - Make sure to set the trigger to on login, then click OK
 
@@ -56,7 +56,7 @@ Replace mpv to whatever sound player that you use, or install mpv
 - Require plymouth to be installed.
 - Put into /usr/share/plymouth/themes/
 - Run `sudo plymouth-set-default-theme -R TWM-plymouth` in console
-- If plymouth-set-default-theme is not found, use a text editor and open /etc/plymouth/plymouthd.conf to include this line:
+- If plymouth-set-default-theme is not found, use a text editor and open /etc/plymouth/plymouthd.conf to include this line:  
 ``[Daemon]
 Theme=TWM-plymouth``
 
