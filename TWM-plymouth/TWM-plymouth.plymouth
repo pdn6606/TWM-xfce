@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=TWM-plymouth
+Description=The World Machine plymouth
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/TWM-plymouth
+ScriptFile=/usr/share/plymouth/themes/TWM-plymouth/TWM-plymouth.script

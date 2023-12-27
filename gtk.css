@@ -1,0 +1,66 @@
+window.xfce4-panel widget > box > button > image{
+   padding: 0.2em 0.16em;  -gtk-icon-transform: scale(0.8);
+}
+
+window#whiskermenu-window treeview>* {
+  padding:0.2em 0.16em;
+}
+
+#xfce4-notification-plugin image {
+	-gtk-icon-transform: scale(0.85) translateY(3px);
+}
+#pulseaudio-button image {
+	-gtk-icon-transform: scale(0.9);
+}
+#xfce4-power-manager-plugin image {
+	-gtk-icon-transform: scale(0.75);
+}
+
+VteTerminal, vte-terminal {
+    padding: 13px;
+}
+
+.xfce4-panel {
+	border-top: 3px solid #9666ff;
+	background-color: #000000;
+}
+
+.xfce4-panel .tasklist .toggle {
+	border-width: 5px;
+	border-radius: 0px;
+	border-color: #9666ff;
+	margin-top: 6px;
+	margin-right: 5px;
+	margin-left:  0px;
+	font-size: 15px;
+	color: #9666ff;
+}
+
+.xfce4-panel .tasklist image {
+	margin-left: 8px;
+   -gtk-icon-transform: scale(1.25);
+ }
+
+.xfce4-panel .tasklist .toggle:checked box {
+	background-color: #9666ff;
+	color: black;
+}
+
+XfdesktopIconView.label {
+    color: #9666ff;
+}
+.nemo-window .view {
+    background-color: #000000;
+    color: #9666ff;
+}
+
+.nemo-window .sidebar .view {
+    background-color: #000000;
+    color: #9666ff;
+}
+
+#clock-button{
+	margin-right: 10px;
+	font-size: 16px;
+	color: #9666ff;
+}

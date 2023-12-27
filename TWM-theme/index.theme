@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=TWM
+Comment=GTK Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=TWM
+MetacityTheme=TWM
+IconTheme=TWM
+CursorTheme=Luna
+CursorSize=24

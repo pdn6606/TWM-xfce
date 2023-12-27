@@ -1,0 +1,43 @@
+-- Conky weather
+
+conky.config = {
+    background = false,
+    font = 'Terminus:bold:pixelsize=15',
+    use_xft = true,
+    xftalpha = 1.0,
+    update_interval = 100,
+    total_run_times = 0,
+    own_window = true,
+    own_window_transparent = true,
+    own_window_type = 'dock',
+    own_window_class = 'Conky',
+    own_window_argb_visual = true,
+    own_window_argb_value = 255,
+    own_window_colour = '000000',
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    double_buffer = true,
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+    draw_graph_borders = true,
+    stippled_borders = 0,
+    border_width = 0,
+    default_color = '#9666FF',
+    default_shade_color = '#BEC8CB',
+    default_outline_color = '#BEC8CB',
+    alignment = 'bottom_left',
+    gap_x = 365,
+    gap_y = 115,
+    use_spacer = 'none',
+    uppercase = true,
+    text_buffer_size = 512,
+    no_buffers = true,
+    use_spacer = 'none',
+    maximum_width = 1024,
+    minimum_height = 0,
+    uppercase = true,
+};
+
+conky.text = [[
+${execpi 90 curl "https://wttr.in/Hanoi?0ATQ"}
+]];
