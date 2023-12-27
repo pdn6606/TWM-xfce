@@ -72,6 +72,7 @@ Replace mpv to whatever sound player that you use, or install mpv
 [Daemon]
 Theme=TWM-plymouth
 ```
+- Depending on your distro, update your initramfs.
 
 
 ## TWM-grub: Bootloader theme
@@ -79,7 +80,7 @@ Theme=TWM-plymouth
 - Require GRUB to be used as your bootloader
 - Put into /boot/grub/themes
 - Use a text editor and open `/etc/default/grub`
-- Add or replace `GRUB_THEME=` to this line: `GRUB_THEME="/boot/grub/themes/TWM/theme.txt"`
+- Add or replace `GRUB_THEME=` to this line: `GRUB_THEME="/boot/grub/themes/TWM-grub/theme.txt"`
 
 # Preview:
 ![The desktop, with all of the above done, in EndeavourOS XFCE](https://github.com/pdn6606/TWM-xfce/assets/31226956/e9421ee1-ce0a-4158-865d-b4c87642d738)
