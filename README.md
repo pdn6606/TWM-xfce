@@ -1,9 +1,9 @@
 # TWM-xfce
 An attempt to recreate the desktop in OneShot: World Machine Edition in XFCE.  
-The icon pack is based from Pixelitos and RetroPixel.  
+The icon pack is based from Pixelitos and RetroPixel.   
 Some icons are also provided by @Charpurr (on Twitter).  
-xfwm4 theme is made by apprehensions (on GitHub).
-TWM-theme is based on Darkaneon Purple.
+xfwm4 theme is made by apprehensions (on GitHub).  
+TWM-theme is based on Darkaneon Purple.  
 
 # Instruction:  
 * Make sure to change your desktop environment to Xfce.
