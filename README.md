@@ -38,6 +38,7 @@ If you are not using EndeavourOS, the panel's border may overlap with some plugi
 - Change the Window Manager theme by going to Settings Manager - Window Manager, and select TWM-theme
 - Change title font to Terminus Bold, recommended size 15
 - Change title alignment to Left
+- Known issue: Icons do not show in the title bar of a window
 ![Theme](https://github.com/pdn6606/TWM-xfce/assets/31226956/46b1a06a-1d3b-44ac-93cf-951f1c280ea5)
 ![Window Manager](https://github.com/pdn6606/TWM-xfce/assets/31226956/e0063775-1407-4f62-95aa-fe12b60c145d)
 
