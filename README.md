@@ -18,6 +18,7 @@ TWM-theme is based on Darkaneon Purple.
 ![Fonts](https://github.com/pdn6606/TWM-xfce/assets/31226956/38292757-d508-4844-b7db-c4b3895c6782)
 
 ## gtk.css: Panels and Colors
+- Not to be confused with the one inside TWM-theme. This one is placed outside any folder, alongside startup.ogg
 - Go into ~/.config/gtk-3.0
 - Make sure to backup the original gtk.css inside the folder, if it exists, before replacing it
 - Put the file to the folder
