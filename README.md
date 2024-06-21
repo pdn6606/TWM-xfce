@@ -88,6 +88,7 @@ Theme=TWM-plymouth
 - Put into /boot/grub/themes
 - Use a text editor and open `/etc/default/grub`
 - Add or replace `GRUB_THEME=` to this line: `GRUB_THEME="/boot/grub/themes/TWM-GRUB/theme.txt"`
+- Work best with 1920x1080 display.  
 
 # Preview:
 ![The desktop, with all of the above done, in EndeavourOS XFCE](https://github.com/pdn6606/TWM-xfce/assets/31226956/e9421ee1-ce0a-4158-865d-b4c87642d738)
