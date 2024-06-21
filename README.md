@@ -64,6 +64,9 @@ Replace mpv to whatever sound player that you use, or install mpv
 - Require conky to be installed.
 - You should use conky-manager2 to enable and change the position of the widget.
 - TWM-moc-player require mocp, and can only show song played through mocp.
+- TWM-weather should automatically detect your location.  
+In case where it does not (or you want to change the location), edit the file to include your location.  
+It should be `"https://wttr.in/location?0ATQ"`, example `"https://wttr.in/California?0ATQ"`.  
 ![Conky Manager2](https://github.com/pdn6606/TWM-xfce/assets/31226956/caf3dacf-1834-4a0c-82e1-8dca80e49ebd)
 
 ## TWM-plymouth: Bootup screen
