@@ -29,5 +29,5 @@ conky.config = {
 };
 
 conky.text = [[
-${exec cal}
+${execpi 60 DJS=`date +%_d`; cal | sed s/"\(^\|[^0-9]\)$DJS"'\b'/'\1${color yellow}'"$DJS"'$color'/}
 ]];
