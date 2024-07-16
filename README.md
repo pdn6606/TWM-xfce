@@ -7,7 +7,6 @@ TWM-theme is based on Darkaneon Purple.
 
 # Instruction:  
 * Make sure to change your desktop environment to Xfce.
-* Work best in EndeavourOS as it has some patch to fix the panel border issue
 
 ## TWM-fonts: Fonts
 - Put into /usr/share/fonts
@@ -23,8 +22,8 @@ TWM-theme is based on Darkaneon Purple.
 - Make sure to backup the original gtk.css inside the folder, if it exists, before replacing it
 - Put the file to the folder
 - Log out/Restart
-- Reconfigure plugins in your panel, for example the clock might have incorrect fonts and size  
-If you are not using EndeavourOS, the panel's border may overlap with some plugins.    
+- Set panel background style to "Solid color" and set the color to invisible (in Settings Manager - Appearance - Panel)
+- Reconfigure plugins in your panel, for example the clock might have incorrect fonts and size
 ![gtk](https://github.com/pdn6606/TWM-xfce/assets/31226956/8e88be4f-9323-46ef-bfa9-990fca17559f)
 
 ## TWM-icons: Icons
