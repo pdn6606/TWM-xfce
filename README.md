@@ -88,8 +88,9 @@ TWM-theme is based on Darkaneon Purple.
 Theme=TWM-plymouth
 ```
 - Regenerate your initramfs
-  + For systems using mkinitcpio: `sudo mkinitcpio -P`
-  + For systems using dracut: `sudo dracut-rebuild`
+  + For systems using mkinitcpio: `sudo mkinitcpio -P` (https://wiki.archlinux.org/title/Mkinitcpio)
+  + For systems using dracut: `sudo dracut-rebuild` or `sudo dracut --regenerate-all --force` (https://wiki.archlinux.org/title/Dracut)
+  + Note: Some distributions may have different ways to regenerate your initramfs. For such systems, you may need to google for the command.
 
 ## TWM-GRUB: Bootloader theme
 ### Require GRUB to be used as your bootloader
