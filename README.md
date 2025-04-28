@@ -26,7 +26,7 @@ TWM-theme is based on Darkaneon Purple.
   + Set panel background style to `Solid color` and set the color to invisible
   + General icon size and Status icon size should be around 16 to 22
 #### Reconfigure your panel plugins
-  + Clock: Layout: `Time Only`; Format: `HH:MM AM/PM` (`%I:%M %p`); Font: Terminus Medium size 13-16
+  + Clock (not to be confused with DateTime): Layout: `Time Only`; Format: `HH:MM AM/PM` (`%I:%M %p`); Font: Terminus Medium size 13-16
   + Whisker Menu: Display: `Icon`; Icon: `oneshot`
   + Window Buttons: Enable `Show button labels` and `Show flat buttons`
 ![gtk](https://github.com/pdn6606/TWM-xfce/assets/31226956/8e88be4f-9323-46ef-bfa9-990fca17559f)
