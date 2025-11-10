@@ -12,8 +12,7 @@ TWM-theme is based on Darkaneon Purple.
 - Move folder into `/usr/share/fonts`
 - Log out/Restart
 - Change the fonts in `Settings Manager - Appearance - Fonts`
-- Default font should be `Terminus Medium`; Monospace font should be `Terminus Bold`
-- Font size should be either 11 or 13    
+- Default font should be `Volter (Goldfish) Regular 10`; Monospace font should be `Terminus Bold 12`
 ![Fonts](https://github.com/pdn6606/TWM-xfce/assets/31226956/38292757-d508-4844-b7db-c4b3895c6782)
 
 ## gtk.css: Panels and Colors
@@ -22,11 +21,13 @@ TWM-theme is based on Darkaneon Purple.
 - Make sure to backup the original gtk.css inside the folder, if it exists, before replacing it
 - Move the file to the folder
 - Log out/Restart
+
 #### Reconfigure your panel (Settings Manager - Appearance - Panel)
-  + Set panel background style to `Solid color` and set the color to invisible
-  + General icon size and Status icon size should be around 16 to 22
+  + Set panel background style to `Solid color` and set the color to Invisible, if possible, or #000000
+  + Panel height should be at 36-40; Icon size should be at 24-28
+
 #### Reconfigure your panel plugins
-  + Clock (not to be confused with DateTime): Layout: `Time Only`; Format: `HH:MM AM/PM` (`%I:%M %p`); Font: Terminus Medium size 13-16
+  + Clock (not to be confused with DateTime): Layout: `Time Only`; Format: `HH:MM AM/PM` (`%I:%M %p`); Font: `Volter (Goldfish) Regular 11`
   + Whisker Menu: Display: `Icon`; Icon: `oneshot`
   + Window Buttons: Enable `Show button labels` and `Show flat buttons`
 ![gtk](https://github.com/pdn6606/TWM-xfce/assets/31226956/8e88be4f-9323-46ef-bfa9-990fca17559f)
@@ -41,8 +42,7 @@ TWM-theme is based on Darkaneon Purple.
 - Move folder into `/usr/share/themes`
 - Change the theme by going to `Settings Manager - Appearance - Style`, and select `TWM-theme`
 - Change the Window Manager theme by going to `Settings Manager - Window Manager`, and select `TWM-theme`
-- Change title font to `Terminus Bold`, recommended size 15
-- Change title alignment to Left
+- Change title font to `Volter (Goldfish) Regular 12`; title alignment to Left
 - Known issue: Icons do not show in the title bar of a window    
 
 ![Theme](https://github.com/pdn6606/TWM-xfce/assets/31226956/46b1a06a-1d3b-44ac-93cf-951f1c280ea5)
