@@ -1,0 +1,42 @@
+-- Conky weather
+
+conky.config = {
+    background = false,
+    font = 'Terminus:bold:pixelsize=13',
+    use_xft = true,
+    xftalpha = 1.0,
+    update_interval = 100,
+    total_run_times = 0,
+    own_window = true,
+    own_window_transparent = true,
+    own_window_type = 'dock',
+    own_window_class = 'Conky',
+    own_window_argb_visual = true,
+    own_window_argb_value = 255,
+    own_window_colour = '000000',
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    double_buffer = true,
+    draw_shades = true,
+    draw_outline = false,
+    draw_borders = false,
+    draw_graph_borders = true,
+    stippled_borders = 0,
+    border_width = 0,
+    default_color = '#9666FF',
+    default_shade_color = '#000000',
+    default_outline_color = '#000000',
+    alignment = 'bottom_left',
+    gap_x = 285,
+    gap_y = 100,
+    use_spacer = 'none',
+    uppercase = true,
+    text_buffer_size = 512,
+    no_buffers = true,
+    use_spacer = 'none',
+    maximum_width = 1024,
+    minimum_height = 0,
+};
+
+conky.text = [[
+${execpi 90 curl "https://wttr.in/?0ATQ"}
+]];
