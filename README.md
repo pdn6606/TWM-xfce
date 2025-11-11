@@ -76,9 +76,10 @@ TWM-theme is based on Darkaneon Purple.
 
 <img width="441" height="251" alt="image" src="https://github.com/user-attachments/assets/7ca101e4-e369-4dd1-9358-8d422fb6e88d" />
 
-## TWM-Conky: Desktop widgets
+## TWM-Conky | TWM-Conky-sm: Desktop widgets
 ### Require conky to be installed.
 - You should use conky-manager2 to enable and change the position of the widget.
+- If your screen is small (<1366x768), use TWM-Conky-sm instead of TWM-Conky.
 - TWM-moc-player require mocp, and can only show song played through mocp.
 - TWM-weather should automatically detect your location.  
   + In case where it does not (or you want to change the location), edit the file to include your location.  
