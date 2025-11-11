@@ -72,7 +72,7 @@ TWM-theme is based on Darkaneon Purple.
 - Go to Settings Manager - Session and Startup - Application Autostart
 - Click add, and set the command to `mpv /path/to/startup.ogg`
   + Replace mpv to whatever sound player that you use, or install mpv
-  + Replace `/path/to` with the directory of the sound file (ex: `/home/pdn/`)
+  + Replace `/path/to` with the directory of the sound file (ex: `/home/pdn`)
 - Set the trigger to on login, then click OK
 
 <img width="441" height="251" alt="image" src="https://github.com/user-attachments/assets/7ca101e4-e369-4dd1-9358-8d422fb6e88d" />
