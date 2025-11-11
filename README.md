@@ -1,5 +1,5 @@
 # TWM-xfce
-### An attempt to recreate the desktop in OneShot: World Machine Edition in XFCE.  
+### An attempt to recreate the desktop in OneShot: World Machine Edition in Xfce.  
 The icon pack is based from Pixelitos and RetroPixel.   
 Some icons are also provided by @Charpurr (on Twitter).  
 xfwm4 theme is made by apprehensions (on GitHub).  
@@ -72,7 +72,7 @@ TWM-theme is based on Darkaneon Purple.
 - Go to Settings Manager - Session and Startup - Application Autostart
 - Click add, and set the command to `mpv /path/to/startup.ogg`
   + Replace mpv to whatever sound player that you use, or install mpv
-  + Replace `/path/to` with the directory of the sound file (ex: `/home/pdn/`)
+  + Replace `/path/to` with the directory of the sound file (ex: `/home/pdn`)
 - Set the trigger to on login, then click OK
 
 <img width="441" height="251" alt="image" src="https://github.com/user-attachments/assets/7ca101e4-e369-4dd1-9358-8d422fb6e88d" />
@@ -109,7 +109,9 @@ Theme=TWM-plymouth
 - Move folder into `/boot/grub/themes`
 - Use a text editor and open `/etc/default/grub`
 - Add/replace `GRUB_THEME=` with this line: `GRUB_THEME="/boot/grub/themes/TWM-GRUB/theme.txt"`
-- Work best with 1920x1080 display.  
+- Work best with 1920x1080 display.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6ccf291-f691-4979-ba92-d8e6fcaab4cb" />
 
 # Preview:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02db4d09-9b9d-4c00-a1c1-f04a19c6600e" />
