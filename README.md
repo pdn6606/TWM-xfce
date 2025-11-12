@@ -13,6 +13,7 @@ TWM-theme is based on Darkaneon Purple.
 - Change the theme by going to `Settings Manager - Appearance - Style`, and select `TWM-theme`
 - Change the Window Manager theme by going to `Settings Manager - Window Manager`, and select `TWM-theme`
 - Change title font to `Volter (Goldfish) Regular 12`; title alignment to Left
+- Note: Some browsers (mostly Chromium-based one) may have some rendering problems with this theme. Fix this by enabling System titlebar in said browsers.
 
 <img width="765" height="639" alt="image" src="https://github.com/user-attachments/assets/0da020cb-244f-43fb-b88c-2b8c30cd1543" />
 
@@ -58,6 +59,13 @@ TWM-theme is based on Darkaneon Purple.
 <img width="1920" height="41" alt="image" src="https://github.com/user-attachments/assets/2335dd20-4f03-465d-9328-f9b440af2691" />
 
 # Optional
+## TWM-cursor: Cursor packs
+- Move folder into `/usr/share/icons`
+- Go to Settings Manager - Mouse and Touchpad
+- On the Themes tab, select TWM-cursor
+
+<img width="632" height="435" alt="image" src="https://github.com/user-attachments/assets/4f5287a2-917c-44cf-933d-658a773ef27d" />
+
 ## TWM-Wallpaper: Desktop wallpaper
 ### SPOILER: If you haven't played OneShot yet, use the TWM.png outside the folder as your wallpaper
 - Go to Settings Manager - Desktop
@@ -114,5 +122,6 @@ Theme=TWM-plymouth
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6ccf291-f691-4979-ba92-d8e6fcaab4cb" />
 
 # Preview:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02db4d09-9b9d-4c00-a1c1-f04a19c6600e" />
+
+<img width="1366" height="768" alt="Screenshot_2025-11-11_22-19-33" src="https://github.com/user-attachments/assets/a0e69b50-dbd5-4de8-8295-1932b69ca7d7" />
 
