@@ -16,7 +16,7 @@ window#whiskermenu-window>* {
 }
 
 #xfce4-notification-plugin image {
-	-gtk-icon-transform: scale(0.85) translateY(3px);
+	-gtk-icon-transform: scale(0.85);
 }
 
 #pulseaudio-button image {
@@ -63,6 +63,11 @@ VteTerminal, vte-terminal {
 	margin-left: 0px;
 }
 
+.xfce4-panel .tasklist .toggle box {
+	background-color: #000000;
+	color: #9666ff;
+	font-weight: 300;
+}
 .xfce4-panel .tasklist .toggle:checked box {
 	background-color: #9666ff;
 	color: black;
