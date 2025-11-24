@@ -13,7 +13,7 @@ TWM-theme is based on Darkaneon Purple.
 - Change the theme by going to `Settings Manager - Appearance - Style`, and select `TWM-theme`
 - Change the Window Manager theme by going to `Settings Manager - Window Manager`, and select `TWM-theme`
 - Change title font to `Volter (Goldfish) Regular 12`; title alignment to Left
-- Note: Some browsers (mostly Chromium-based one) may have some rendering problems with this theme. Fix this by enabling System titlebar in said browsers.
+- Note: Some browsers (mostly Chromium-based one) may have some rendering problems with this theme (or may show wrong window borders). Fix this by enabling System titlebar in said browsers.
 
 <img width="765" height="639" alt="image" src="https://github.com/user-attachments/assets/0da020cb-244f-43fb-b88c-2b8c30cd1543" />
 
