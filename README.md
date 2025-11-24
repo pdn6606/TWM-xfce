@@ -30,7 +30,7 @@ TWM-theme is based on Darkaneon Purple.
 - Move folder into `/usr/share/fonts`
 - Log out/Restart
 - Change the fonts in `Settings Manager - Appearance - Fonts`
-- Default font should be `Volter (Goldfish) Regular 10`; Monospace font should be `Terminus Bold 12`
+- Default font should be `Volter (Goldfish) Regular 10`; Monospace font should be `Terminus Medium 12`
 
 <img width="765" height="639" alt="image" src="https://github.com/user-attachments/assets/adc623ef-56d9-482c-953d-cf835c837da4" />
 
