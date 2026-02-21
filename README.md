@@ -7,8 +7,8 @@ TWM-theme is based on Darkaneon Purple.
 
 ## Also check out these projects!
 ### Below projects aren't made by me, but might go well (or can be used) with TWM-xfce!
-- TWM-GTK4 `https://github.com/ViviNoSmol/TWM-GTK4`: gtk.css files that provide themes similar to TWM-xfce for GTK4 applications.
-- OneShot-WME-Plasma6Theme `https://github.com/capYT-real/OneShot-WME-Plasma6Theme`: Oneshot WME desktop theme for KDE. Most components from TWM-xfce (except TWM-theme) can be used alongside this project as well!
+- [TWM-GTK4](https://github.com/ViviNoSmol/TWM-GTK4) by ViviNoSmol: gtk.css files that provide themes similar to TWM-xfce for GTK4 applications.
+- [OneShot-WME-Plasma6Theme](https://github.com/capYT-real/OneShot-WME-Plasma6Theme) by capYT-real: Oneshot WME desktop theme for KDE. Most components from TWM-xfce (except TWM-theme) can be used alongside this project as well!
 
 # Instruction:  
 ### Make sure to change your desktop environment to Xfce.
