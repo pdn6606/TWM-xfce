@@ -1,6 +1,6 @@
 # TWM-xfce
 ### An attempt to recreate the desktop in OneShot: World Machine Edition in Xfce.
-Oneshot: World Machine Edition is made by Future Cat Games.
+Oneshot: World Machine Edition is made by Future Cat Games.  
 The icon pack is based from Pixelitos and RetroPixel, with some icons are also provided by @Charpurr (on Twitter).  
 xfwm4 theme is made by apprehensions (on GitHub).  
 TWM-theme is based on Darkaneon Purple.  
