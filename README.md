@@ -5,14 +5,19 @@ Some icons are also provided by @Charpurr (on Twitter).
 xfwm4 theme is made by apprehensions (on GitHub).  
 TWM-theme is based on Darkaneon Purple.  
 
+## Also check out these projects!
+### Below projects aren't made by me, but might go well (or can be used) with TWM-xfce!
+- TWM-GTK4 `https://github.com/ViviNoSmol/TWM-GTK4`: gtk.css files that provide themes similar to TWM-xfce for GTK4 applications.
+- OneShot-WME-Plasma6Theme `https://github.com/capYT-real/OneShot-WME-Plasma6Theme`: Oneshot WME desktop theme for KDE. Most components from TWM-xfce (except TWM-theme) can be used alongside this project as well!
+
 # Instruction:  
 ### Make sure to change your desktop environment to Xfce.
 
 ## TWM-theme: xfwm4 theme
-- Move folder into `/usr/share/themes`
+- Move folder into `/usr/share/themes` (`sudo mv TWM-theme /usr/share/themes`)
 - Change the theme by going to `Settings Manager - Appearance - Style`, and select `TWM-theme`
 - Change the Window Manager theme by going to `Settings Manager - Window Manager`, and select `TWM-theme`
-- Change title font to `Volter (Goldfish) Regular 12`; title alignment to Left
+- Change title font to `Volter (Goldfish) Regular 12`; title alignment to `Left`
 - Note: Some browsers (mostly Chromium-based one) may have some rendering problems with this theme (or may show wrong window borders). Fix this by enabling System titlebar in said browsers.
 
 <img width="765" height="639" alt="image" src="https://github.com/user-attachments/assets/0da020cb-244f-43fb-b88c-2b8c30cd1543" />
@@ -20,14 +25,14 @@ TWM-theme is based on Darkaneon Purple.
 <img width="765" height="639" alt="image" src="https://github.com/user-attachments/assets/ff46a25d-46eb-4172-bba4-902b8883d1cf" />
 
 ## TWM-icons: Icons
-- Move folder into `/usr/share/icons`
+- Move folder into `/usr/share/icons` (`sudo mv TWM-icons /usr/share/icons`)
 - Change the icon by going to `Settings Manager - Appearance - Icons`, and select `TWM`
 - Not all icons are replaced. Feel free to request missing icons by creating a new post in Issues.
 
 <img width="765" height="639" alt="image" src="https://github.com/user-attachments/assets/a352f236-831f-4814-bcbc-60b97574a071" />
 
 ## TWM-fonts: Fonts
-- Move folder into `/usr/share/fonts`
+- Move folder into `/usr/share/fonts` (`sudo mv TWM-fonts /usr/share/fonts`)
 - Log out/Restart
 - Change the fonts in `Settings Manager - Appearance - Fonts`
 - Default font should be `Volter (Goldfish) Regular 10`; Monospace font should be `Terminus Medium 12`
@@ -36,9 +41,9 @@ TWM-theme is based on Darkaneon Purple.
 
 ## gtk.css: Panels and Colors
 #### Not to be confused with the one inside TWM-theme. This file is placed outside any folder, alongside startup.ogg.
-- Go into `~/.config/gtk-3.0`
-- Make sure to backup the original gtk.css inside the folder, if it exists, before replacing it
-- Move the file to the folder
+- Go into `~/.config/gtk-3.0` (or create one if doesn't exist `mkdir ~/.config/gtk-3.0`)
+- Make sure to backup the original gtk.css inside the folder, if it exists, before replacing it (`cp ~/.config/gtk-3.0/gtk.css ~/.config/gtk-3.0/gtk.bak`)
+- Move the file to the folder (`mv gtk.css ~/.config/gtk-3.0`)
 - Log out/Restart
 
 <img width="1295" height="535" alt="image" src="https://github.com/user-attachments/assets/067c07cf-da43-4532-acc2-567b8e4dd1e3" />
@@ -60,7 +65,7 @@ TWM-theme is based on Darkaneon Purple.
 
 # Optional
 ## TWM-cursor: Cursor packs
-- Move folder into `/usr/share/icons`
+- Move folder into `/usr/share/icons` (`sudo mv TWM-cursor /usr/share/icons`)
 - Go to Settings Manager - Mouse and Touchpad
 - On the Themes tab, select TWM-cursor
 
@@ -75,7 +80,7 @@ TWM-theme is based on Darkaneon Purple.
 <img width="812" height="546" alt="image" src="https://github.com/user-attachments/assets/5e706240-92e0-425f-8a81-9f5a305a8a0f" />
 
 ## startup.ogg: Login sound
-- Move file into ~/ (or whatever folder you want)
+- Move file into ~/ (or whatever folder you want) (`mv startup.ogg ~/`)
 - Go to Settings Manager - Session and Startup - Application Autostart
 - Click add, and set the command to `mpv /path/to/startup.ogg`
   + Replace mpv to whatever sound player that you use, or install mpv
@@ -98,7 +103,7 @@ TWM-theme is based on Darkaneon Purple.
 
 ## TWM-plymouth: Bootup screen
 ### Require plymouth to be installed and set up correctly. (https://wiki.archlinux.org/title/Plymouth)
-- Move folder into `/usr/share/plymouth/themes/`
+- Move folder into `/usr/share/plymouth/themes/` (`sudo mv TWM-plymouth /usr/share/plymouth/themes`)
 - Run `sudo plymouth-set-default-theme TWM-plymouth` in console
   + If the above command doesn't exist (or doesn't work), use a text editor and open `/etc/plymouth/plymouthd.conf` to include this line:  
 ```
@@ -114,7 +119,7 @@ Theme=TWM-plymouth
 
 ## TWM-GRUB: Bootloader theme
 ### Require GRUB to be used as your bootloader
-- Move folder into `/boot/grub/themes`
+- Move folder into `/boot/grub/themes` (`sudo mv TWM-GRUB /boot/grub/themes`)
 - Use a text editor and open `/etc/default/grub`
 - Add/replace `GRUB_THEME=` with this line: `GRUB_THEME="/boot/grub/themes/TWM-GRUB/theme.txt"`, then save the config
 - Rebuild GRUB configuration.
@@ -128,4 +133,3 @@ Theme=TWM-plymouth
 # Preview:
 
 <img width="1366" height="768" alt="Screenshot_2025-11-11_22-19-33" src="https://github.com/user-attachments/assets/a0e69b50-dbd5-4de8-8295-1932b69ca7d7" />
-
