@@ -124,7 +124,7 @@ Theme=TWM-plymouth
 - Add/replace `GRUB_THEME=` with this line: `GRUB_THEME="/boot/grub/themes/TWM-GRUB/theme.txt"`, then save the config
 - Rebuild GRUB configuration.
   + For Debian/Ubuntu based distro: `sudo update-grub`
-  + For Fedora/Arch and other distro: `grub-mkconfig -o /boot/grub/grub.cfg`
+  + For Fedora/Arch and other distro: `sudo grub-mkconfig -o /boot/grub/grub.cfg`
   + Some distro may have different ways to rebuild GRUB configuration. For such system, you may need to consult to your distro's wiki or search for the command.
 - Work best with 1920x1080+ display.
 
