@@ -93,7 +93,8 @@ TWM-theme is based on Darkaneon Purple.
 ### Require conky to be installed.
 - You should use conky-manager2 to enable and change the position of the widget.
 - If your screen is small (<1366x768), use TWM-Conky-sm instead of TWM-Conky.
-- TWM-moc-player require mocp, and can only show song played through mocp.
+- TWM-moc-player requires `mocp`, and can only show song played through mocp.
+- TWM-calendar requires `ncal`, and may not show up if `ncal` isn't installed.
 - TWM-weather should automatically detect your location.  
   + In case where it does not (or you want to change the location), edit the file to include your location.  
   + It should be `"https://wttr.in/location?d0ATQ"`, example `"https://wttr.in/California?d0ATQ"`.  
