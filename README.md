@@ -49,6 +49,7 @@ TWM-theme is based on Darkaneon Purple.
 <img width="1295" height="535" alt="image" src="https://github.com/user-attachments/assets/067c07cf-da43-4532-acc2-567b8e4dd1e3" />
 
 #### Reconfigure your panel (Settings Manager - Appearance - Panel)
+  + Unlock the panel and drag it to the bottom of the screen, then lock it again
   + Set panel background style to `Solid color` and set the color to Invisible, if possible, or #000000
   + Panel height should be at 36-40; Icon size should be at 24-28
 
